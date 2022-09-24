@@ -1,8 +1,8 @@
 import React from 'react';
 import { Story } from '@storybook/react';
-import { {{pascalCase name}} } from '.';
+import { Teste } from '.';
 
-const Template: Story = (args) => <{{pascalCase name}} {...args} />;
+const Template: Story = (args) => <Teste {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
@@ -11,6 +11,6 @@ Default.args = {
 };
 
 export default {
-  title: '{{pascalCase name}}',
-  component: {{pascalCase name}}
+  title: 'Teste',
+  component: Teste
 };
